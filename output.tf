@@ -3,6 +3,7 @@ output "demo_ec2_id" {
   value       = aws_instance.demo_ec2.id
 }
 
+
 output "demo_ec2_private_ip" {
   description = "Print the Private IP of EC2 Instance"
   value       = aws_instance.demo_ec2.private_ip
