@@ -18,6 +18,6 @@ variable "subnet_id" {
 
 }
 
-variable region {
+variable "region" {
     
 }
